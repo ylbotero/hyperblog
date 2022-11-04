@@ -7,6 +7,24 @@ body {
     padding: 0;
 }
 
+/* Hyperblog */
+#cabecera {
+    background: #33A;
+    box-shadow: 0px 2px 20px 0px rgba(0, 0, 0, 0.5);
+    color: white;
+    font-weight: bold;
+    margin: 0;
+    padding: 0.5em;
+}
+
+/* Tu blog de confianza */
+#cabecera #tagline {
+    margin: 0 0 0 1em;
+    font-weight: normal;
+    font-size: 0.8em;
+}
+
+/* La caja que rodea el texto */
 #container {
     width: 70%;
     padding: 1em;
@@ -15,6 +33,7 @@ body {
     margin: 0 auto;
 }
 
+/* Texto h1 "Este es el titulo atractivo e interesante del post" */
 #container h1 {
     font-size: 20px;
 }
